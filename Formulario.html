@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skynet Travel</title>
+    <link rel="stylesheet" href="Formulario.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <img src="img/Menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#formulario">Formulario</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+            <p class="copy">Tus viajes confiables y seguros</p>
+        </div>
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="Img/Travel plans_Isometric.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Viajes</h3>
+                        <p>Nuestros viajes desde la palma de tu bolsillo, nos especializamos en el cumplimiento
+                            de tus sueños, por eso hacemos de tus viajes más divertidos y con una experiencia unica
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Hoteleria</h3>
+                        <p>Nuestros hospedajes te ofrecen una habitación unica, con todos sus servicios,
+                            una comodidad como la de casa.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Turismo</h3>
+                        <p>Nuestro turismo te ofrece, un recorrido por todas las maravillas de la ciudad, nuestros guias
+                            especializados te hacen vivir una experiencia que no podras olvidar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="destinos">
+            <div class="contenedor">
+                <h2 class="subtitulo">Destinos</h2>
+                <div class="contenedor-galeria">
+                    <img src="Img/Arequipa.jpg" alt="" class="img-galeria">
+                    <img src="Img/Arequipa 2.jpg" alt="" class="img-galeria">
+                    <img src="Img/Macchu Picchu.jpg" alt="" class="img-galeria">
+                    <img src="Img/Macchu Picchu 2.jpg" alt="" class="img-galeria">
+                    <img src="Img/Tarapoto.jpg" alt="" class="img-galeria">
+                    <img src="Img/Tarapoto 2.jpg" alt="" class="img-galeria">
+                    <img src="Img/Paracas.jpg" alt="" class="img-galeria">
+                    <img src="Img/Paracas 2.jpeg" alt="" class="img-galeria">
+                    <img src="Img/Lamas.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="img/Button x.svg" alt="" class="close">
+            <img src="Img/adelin-grigorescu-qWhnYv_GGR4-unsplash.jpg" alt="" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-experts">
+                    <img src="img/Traveling_Isometric.svg" alt="">
+                    <h3 class="n-expert">Turismo</h3>
+                </div>
+                <div class="cont-experts" alt="">
+                    <img src="img/Traveling_Flatline.svg" alt="">
+                    <h3 class="n-expert">Viajes</h3>
+                </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <foooter class="foooter">
+        <div class="skew-arriba"></div>
+        <div class="deg-foooter"></div>
+        <div class="ejeZfoooter">
+            <div class="foooter-content">
+                <div class="foooter-title">
+                    <h2>Formulario de Contacto</h2>
+                    <hr>
+                </div>
+
+                <div class="formulario-content">
+                    <form id="formulario">
+                        <label for="user">Nombre:</label>
+                        <input type="text" id="user" name="user" placeholder="Ingresa tu nombre">
+
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
+
+                        <label for="origen">Origen:</label>
+                        <input type="text" id="origen" name="origen" placeholder="Ingresa tu origen">
+
+                        <label for="destino">Destino:</label>
+                        <input type="text" id="destino" name="Destino" placeholder="Ingresa tu destino">
+
+                        <label for="email">Correo Electronico:</label>
+                        <input type="email" id="email" name="email" placeholder="Ingresa tu email">
+
+                        <label for="message">Escribe tu mensaje:</label>
+                        <textarea name="message" id="message"></textarea>
+
+                        <div class="send"><button>Enviar</button></div>
+
+                        <div class="mensaje-form">
+                            <p>Escribenos un mensaje, con mucho gusto tendras una respuesta de parte de nosotros en muy
+                                poco tiempo.
+                        </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </footer>
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Skynet Travel</h2>
+                    <p>Somos expertos cumpliendo tus sueños</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-whatsapp'></i>
+                        <a href="./" class="social-media-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+        <script>
+            $(document).ready(function () {
+                // obtiene el foco
+                $("input").focus(function () {
+                    $(this).css("background-color", "#FFFD95");
+                });
+                // pierde el foco
+                $("input").blur(function () {
+                    $(this).css("background-color", "#CEE5D0");
+                });
+            });
+        </script>
+        <script src="js/menu.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script>
+            window.watsonAssistantChatOptions = {
+              integrationID: "90eaa9b5-0eb9-43db-9be2-3b0089b0796b", // The ID of this integration.
+              region: "au-syd", // The region your integration is hosted in.
+              serviceInstanceID: "8d829077-bfbd-4032-8628-7cb6f94b1f6b", // The ID of your service instance.
+              onLoad: function(instance) { instance.render(); }
+            };
+            setTimeout(function(){
+              const t=document.createElement('script');
+              t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+              document.head.appendChild(t);
+            });
+          </script>
+</body>
+
+</html>
