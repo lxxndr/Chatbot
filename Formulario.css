@@ -1,0 +1,116 @@
+.foooter{
+    position: relative;
+    width:100%;
+    height: 100%;
+    background: url(Img/adelin-grigorescu-qWhnYv_GGR4-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.foooter .deg-foooter{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(194, 153, 153, 0.7);
+}
+.foooter .ejeZfoooter{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.foooter .foooter-content{
+    padding-top: 50px;
+    width:90%;
+    margin:auto;
+}
+.foooter .foooter-content .footer-title{
+    margin:auto;
+    padding:15px;
+}
+.foooter .foooter-content .footer-title h2{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.foooter .foooter-content .footer-title hr{
+    height: 2px;
+    width: 80%;
+    margin:auto;
+}
+.foooter .formulario-content{
+    width: 50%;
+    margin:50px auto;
+    background: rgba(214, 165, 214, 0.781);
+    padding:30px;
+    border-radius: 50px;
+    border:1.5px solid var(--red);
+    margin-bottom: 100px;
+}
+.foooter .formulario-content #formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.foooter .formulario-content #formulario label{
+    font-size: 20px;
+    text-align: center;
+    color:var(--black);
+    margin:30px 0px 10px 0px;
+}
+.foooter .formulario-content #formulario input{
+    width: 90%;
+    height: 40px;
+    margin:auto;
+    border-radius: 24px;
+    outline: none;
+    border:1.5px solid var(--red);
+    text-align: center;
+    font-size: 18px;
+    color: var(--black);
+}
+.foooter .formulario-content #formulario textarea{
+    width: 90%;
+    height: 200px;
+    margin:auto;
+    border-radius: 24px;
+    outline: none;
+    border:1.5px solid var(--red);
+    padding: 20px;
+    font-size: 15px;
+    color: var(--black);
+}
+.foooter .formulario-content #formulario .send{
+    margin:30px;
+    display: flex;
+    justify-content: center;
+}
+.foooter .formulario-content #formulario .send button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: var(--red);
+    border:none;
+    outline: none;
+    border-radius: 20px;
+    color: rgb(201, 113, 201);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.foooter .formulario-content #formulario .send button:hover{
+    background: var(--blue);
+}
+.foooter .formulario-content #formulario .mensaje-form{
+    width: 100%;
+    margin:auto;
+    padding:20px;
+}
+.foooter .formulario-content #formulario .mensaje-form p{
+    font-size: 19px;
+    color:var(--black);
+    line-height: 35px;
+}
